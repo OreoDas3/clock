@@ -1,0 +1,29 @@
+Agency Name, agency_name ,Loss Run Report
+CARRIER, carrier_name ,Accord
+fake.random_element(elements=('Amy Gibson','John Larson','Nick Ronald','Catherine Gomes')), uwr, NA
+UNDERWRITER OFFICE, uwr_off ,Accord
+LINES OF BUSINESS, sections ,Accord
+BILLING PLAN, bill_plan ,Accord
+PAYMENT PLAN, pay_plan ,Accord
+Year built, year_built ,SOV
+'PREMISES INFORMATION';',FULL TIME EMPL',num_employees,ACCORD
+'PREMISES INFORMATION';'ANNUAL REVENUES:',ann_rev,ACCORD
+NATURE OF BUSINESS, nature_bussiness ,Accord
+'NATURE OF BUSINESS';'DESCRIPTION OF PRIMARY OPERATIONS',natbussiness2,Accord
+LINES OF BUSINESS, lob ,Accord
+'@Commercial Property Insuarance', policy_type, NA
+fake.random_int(6000,9999), limits,NA
+'PRIOR CARRIER INFORMATION';'PREMIUM' ,premium,ACCORD
+'@Property', line, NA
+TYPE/DESCRIPTION OF OCCURENCE OR CLAIM, claim_def ,Accord
+'LOSS HISTORY';'AMOUNT PAID' ,amount_paid,Accord
+'LOSS HISTORY';'AMOUNT RESERVED' ,amount_res,Accord
+fake.random_int(6000,9999), limit, NA
+'APPLICANT INFORMATION';'NAME' ,company_name,Accord
+fake.random_element(elements=('Water Flooding','Accidental Spillage','Heavy Rains','Fire Outbreak','Hurricane')), claim_desc, NA
+fake.random_int(6000000,9999999), annual_rev, NA
+fake.random_element(elements=('Suzuki','Toyoyta','Audi','Mercedes Benz','Tesla')), make, NA
+fake.random_int(1990,2000), year_man,NA
+fake.random_int(1000,2000), cub_capacity,NA
+@5000, tot_prem_received,NA
+fake.random_int(1,9), others_unstructured_type,NA
